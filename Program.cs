@@ -62,6 +62,7 @@
             var GrandFather = Son.GetGrandFatherName();
             Console.WriteLine(GrandFather[0]?.FullName.ToUpper());
             Console.WriteLine(GrandFather[1]?.FullName.ToLower());
+            Console.WriteLine(GrandFather[1].FullName);
 
         }
     }
